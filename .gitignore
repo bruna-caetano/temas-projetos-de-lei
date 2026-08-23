@@ -1,0 +1,30 @@
+# Dados brutos da Câmara: ~365 MB, baixados do portal de Dados Abertos.
+dados/
+
+# Tabela derivada, reproduzível pelo notebook
+autores_propostas_temas.csv
+
+# Arquivos que ficam só na máquina local: o notebook exploratório, o script do
+# gráfico e os HTMLs que ele gera. Para versionar algum deles, `git add -f`.
+analise_temas_propostas.ipynb
+baixar_dados.py
+gerar_grafico_waffle_partidos.py
+grafico_waffle_pauta_partidos_embed.html
+grafico_waffle_pauta_partidos_preview.html
+
+# Rascunhos de sessões anteriores
+claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
+nul

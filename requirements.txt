@@ -1,0 +1,9 @@
+# Análise
+pandas>=2.2
+numpy>=1.26
+
+# Gráficos
+plotly>=5.22
+
+# Notebook (opcional — só para abrir o .ipynb)
+jupyterlab>=4.0
